@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import { useState } from 'react';
 
 import { type UserProps } from 'types/user';
@@ -53,9 +54,6 @@ export default function Home(): JSX.Element {
   return (
     <main>
       <div className="flex h-screen flex-col items-center justify-center">
-        <h1 className="text-2xl font-bold uppercase">
-          GitHub Finder
-        </h1>
         <Search loadUser={loadUser} />
         {user != null && <User {...user} />}
         {error && <Error />}
