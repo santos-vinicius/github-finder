@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { type UserProps } from 'types/user';
 
 import Error from 'components/Error';
+import Footer from 'components/Footer';
 import Search from 'components/Search';
 import User from 'components/User';
 
@@ -57,6 +58,7 @@ export default function Home(): JSX.Element {
         <Search loadUser={loadUser} />
         {user != null && <User {...user} />}
         {error && <Error />}
+        <Footer />
       </div>
     </main>
   );

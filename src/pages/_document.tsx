@@ -9,7 +9,7 @@ export default function Document(): JSX.Element {
   return (
     <Html lang="en">
       <Head />
-      <body className="bg-zinc-100 text-zinc-900">
+      <body className="bg-zinc-200 text-zinc-900">
         <Main />
         <NextScript />
       </body>

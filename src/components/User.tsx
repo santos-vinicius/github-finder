@@ -13,7 +13,7 @@ const User = ({
   twitter_username,
 }: UserProps) => {
   return (
-    <div className="mx-8 my-1 flex flex-col items-center justify-center rounded-2xl bg-zinc-900 px-6 py-8 text-zinc-100">
+    <div className="mx-8 my-1 flex max-w-md flex-col items-center justify-center rounded-2xl bg-zinc-900 px-6 py-8 text-zinc-100">
       <img
         src={avatar_url}
         alt={login}
@@ -26,9 +26,9 @@ const User = ({
       <div className="mb-1 text-justify">
         <p className="text-sm">{bio}</p>
       </div>
-      <div className="flex space-x-3">
+      <div className="my-2 flex space-x-3">
         {location != null && (
-          <div className="my-1 flex items-center space-x-1">
+          <div className="flex items-center space-x-1">
             <MapPin
               size={18}
               className=" bg-zinc- text-zinc-400"
@@ -38,7 +38,7 @@ const User = ({
         )}
 
         {twitter_username != null && (
-          <div className="my-1 flex items-center space-x-1">
+          <div className="flex items-center space-x-1">
             <Twitter size={18} className="text-zinc-400" />
             <p className="text-sm">
               <span className="text-zinc-500">@</span>
@@ -48,7 +48,7 @@ const User = ({
         )}
       </div>
 
-      <div className="mx-1 flex space-x-1 p-3 text-center">
+      <div className="mx-1 flex space-x-1 px-3 py-1 text-center">
         <div className="rounded-lg p-2 hover:bg-zinc-800">
           <p className="text-lg font-bold text-orange-600">
             {followers}
