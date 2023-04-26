@@ -1,6 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<p align="center">
+  <img align="center" src="./.github/banner.png" alt="github-finder banner title" />
+</p>
+
+<h2 align="center">Github Finder</h2>
+
+> Next app to search Github profiles.
+
+<p align="center">
+  <a href="https://github.com/santos-vinicius/github-finder/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-pink.svg?style=flat-square" />
+  </a>
+  <a href="https://twitter.com/devStrawHat" target="_blank">
+    <img alt="Twitter: devStrawHat" src="https://img.shields.io/twitter/follow/devStrawHat.svg?style=flat-square&color=blue" />
+  </a>
+  <img alt="Vercel Status" src="https://img.shields.io/github/deployments/santos-vinicius/github-finder/Production?label=vercel&logo=vercel&style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/santos-vinicius/github-finder?style=flat-square">
+  
+</p>
+
+### 🏠 [Demo](https://githubprofile-finder.vercel.app/)
+
+<p align="center">
+  <img align="center" src="./.github/demo.gif" alt="gif demostration" />
+</p>
+
+### 📦 Usage
 
 First, run the development server:
 
@@ -16,23 +41,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 🦄 Author
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+👤 **[Vinicius Santos](https://github.com/santos-vinicius)**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Website: [santosvinicius.dev](https://github.com/santos-vinicius)
+- Twitter: [@devStrawHat](https://twitter.com/devStrawHat)
+- LinkedIn: [@santos-vinicius](https://linkedin.com/in/santos-vinicius)
 
-## Learn More
+### 💟 Show your support
 
-To learn more about Next.js, take a look at the following resources:
+> Give a ⭐️ if this project helped you!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To support the project directly, feel free to open issues for suggestions, or contribute with a pull request!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 📑 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Copyright © 2023 ✦ [Vinicius Santos](https://github.com/santos-vinicius) |
+This project is [MIT Licensed](https://github.com/santos-vinicius/github-finder/blob/main/LICENSE).
