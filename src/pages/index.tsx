@@ -24,19 +24,27 @@ export default function Home(): JSX.Element {
     }
 
     const {
-      avatar_url,
       login,
-      location,
+      name,
+      avatar_url,
       followers,
       following,
+      location,
+      bio,
+      public_repos,
+      twitter_username,
     } = data;
 
     const userData: UserProps = {
-      avatar_url,
       login,
-      location,
+      name,
+      avatar_url,
       followers,
       following,
+      location,
+      bio,
+      public_repos,
+      twitter_username,
     };
 
     setUser(userData);

@@ -16,11 +16,11 @@ function Search({ loadUser }: SearchProps): JSX.Element {
   };
 
   return (
-    <div className="m-2 flex w-4/5 flex-col items-center justify-center">
-      <h2 className="font-medium text-zinc-600">
+    <div className="my-2 flex w-full max-w-md flex-col items-center justify-center">
+      <h2 className="mb-1 text-zinc-300">
         Busque por um usuário:
       </h2>
-      <div className="m-4 flex w-4/5 items-center justify-center">
+      <div className="mb-2 mt-3 flex w-full items-center justify-center">
         <input
           type="text"
           placeholder="Digite o nome do usuário..."
@@ -31,7 +31,7 @@ function Search({ loadUser }: SearchProps): JSX.Element {
           onKeyDown={handleKeyDown}
         />
         <button
-          className="ml-2 rounded-md bg-indigo-700 p-2"
+          className="ml-2 rounded-md bg-sky-500 p-2"
           // eslint-disable-next-line @typescript-eslint/no-misused-promises, @typescript-eslint/promise-function-async
           onClick={() => loadUser(userName)}
         >
