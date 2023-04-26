@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { MapPin, Twitter } from 'lucide-react';
 import { type UserProps } from 'types/user';
 

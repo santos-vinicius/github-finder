@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { useState, type KeyboardEvent } from 'react';
 
 import { Github, Search as SearchIcon } from 'lucide-react';
