@@ -1,3 +1,75 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "standard-with-typescript",
+    "prettier"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ],
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "import-helpers"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off", // para trabalhar com NextJS apenas
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always", // Cria uma nova linha para separar as importacoes
+        "groups": [
+          [
+            "/^react/",
+            "/^next/",
+            "/@next/"
+          ],
+          "module",
+          "/^@shared/",
+          "absolute",
+          "/^components/",
+          "/^pages/",
+          "/utils/",
+          "/constants/",
+          "/^store/",
+          "/^styles/",
+          "/^templates/",
+          [
+            "parent",
+            "sibling",
+            "index"
+          ]
+        ],
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
+      }
+    ],
+    "prettier/prettier": "error"
+  }
 }
